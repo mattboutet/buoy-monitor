@@ -29,12 +29,11 @@ module.exports = {
         connections: {
             mysql: {
                 adapter: 'mysql',
-
                 host      : 'localhost',
                 port      : 3306,
                 user      : Creds.mysqlCreds.user,
                 password  : Creds.mysqlCreds.password,
-                database  : 'user-boilerplate',
+                database  : 'buoy-monitor',
                 connectionLimit: 30,
                 // Optional
                 charset   : 'utf8',
